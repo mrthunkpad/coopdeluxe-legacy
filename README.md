@@ -1,16 +1,23 @@
 # Coop Deluxe for Legacy Systems
 
-This fork aims to add legacy hardware and software compatibility to run sm64coopDX on older hardware.
+This fork aims to add support for legacy software and hardware, allowing CoopDX to run on these devices.
 
 ## Why?
 
-**Why not?** Coop Deluxe can run perfectly on low power devices (e.g. R36S) and on OpenGL 1.0 devices, but the original devs won't add compatibility because "there is no one to test/there is no real need". Keep in mind that there are people who can't afford a modern PC, so this is a real benefit to them.
+**Why not?** Coop Deluxe can run perfectly on low power devices (e.g. R36S) and on OpenGL 1.0 devices, but the original devs won't add compatibility because "there is no one to test/there is no real need". Keep in mind that there are people who can't afford a modern PC, so this is a real benefit to them. 
+
+## Why a fork?
+Compiling this for older hardware sucks, since you need to change the versions of some dependencies for being able to compile for an operating system like Windows XP. Doing this on the main git would be obviously bullshit, of course, so a fork works for this.
 
 ## Goals
 - Full compatibility in DirectX9, OpenGL pre-4.0 and Glide (Voodoo3) devices.
 - Compatibility with Windows 2000 and above without the need of Extended Kernel or similar
 - Fix glitches related to old OpenGL versions on iGPUs (for example, texture glitches on Intel HD Graphics for Arrandale)
 - Optimizations for low RAM usage (might be 100MB, but can be higher according to the possibilities) 
+
+## Want to help?
+You can contact me at liamsterxx@w10.site. If you want to contribute, feel free to add fixes and other useful stuff!
+
 
 # Original README.MD
 ![sm64coopdx Logo](textures/segment2/custom_coopdx_logo.rgba32.png)
