@@ -1,3 +1,5 @@
+# THIS IS NOT STARTED AND IT WON'T WORK, WAIT FOR RELEASE.
+
 # Coop Deluxe for Legacy Systems
 
 This fork aims to add support for legacy software and hardware, allowing CoopDX to run on these devices.
